@@ -1,0 +1,43 @@
+
+SUPPORT TICKET / INCIDENT ANALYSIS – KEY FINDINGS
+=================================================
+
+Dataset: 4,500 synthetic support tickets over ~90 days
+Overall escalation rate: 19.4%
+Median resolution time : 3.3 hours
+
+1. HIGHEST VOLUME CATEGORIES
+category
+Failed Deposit        950
+Stuck Withdrawal      804
+Wallet Discrepancy    680
+Account Issue         593
+General Enquiry       475
+
+2. SLOWEST CATEGORIES (median hours)
+category
+Stuck Withdrawal          4.9
+Payment Provider Error    4.8
+Wallet Discrepancy        4.4
+Login / Access            3.2
+Account Issue             3.0
+
+3. HIGHEST ESCALATION CATEGORIES
+category
+Stuck Withdrawal          29.9
+Wallet Discrepancy        29.6
+Payment Provider Error    26.5
+Login / Access            15.0
+Failed Deposit            12.5
+
+INSIGHTS FOR OPS / PRODUCT
+--------------------------
+- Wallet Discrepancy, Stuck Withdrawal and Payment Provider Error tickets
+  take longer and escalate more often. These are the same issues the
+  Transaction Failure and Wallet Reconciliation projects analyse.
+- Improving root-cause visibility on those three categories would reduce
+  both resolution time and escalation load.
+- Tawk.to is the dominant channel → real-time support quality matters most.
+
+All data is synthetic and modelled on common fintech support patterns.
+No real company data was used.
